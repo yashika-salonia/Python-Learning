@@ -14,6 +14,8 @@ INSTALLED_APPS = [
     'myapp',
     'helloapp',
     'addvar',
+    'palindrome_checker',
+    'to_do_project',
 ]
 
 MIDDLEWARE = [
