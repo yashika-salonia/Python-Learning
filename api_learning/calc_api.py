@@ -1,4 +1,9 @@
 from flask import Flask, request, jsonify
+from fastapi import Depends
+from fastapi.security import HTTPBasic, HTTPBasicCredentials
+import secrets
+
+security = HTTPBasic()
 app = Flask(__name__)
 @app.route('/add')
 def add():
